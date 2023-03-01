@@ -1,0 +1,34 @@
+.status {
+  width: 80%;
+  margin: 0.4rem 1rem;
+  border: 1px solid rgb(199, 196, 196);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.statusFooter {
+  display: flex;
+  background-color: rgb(170, 193, 189);
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.statusFooter > button {
+  padding: 1.2rem;
+  background-color: transparent;
+  background-color: rgba(66, 66, 66, 0.8);
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: white;
+}
+.statusText {
+  width: 100%;
+  border: none;
+  resize: none;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 0.4rem 1rem;
+}

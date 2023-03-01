@@ -1,0 +1,46 @@
+.Header {
+  background-color: #2f3c7e;
+  width: 100%;
+  padding: 1.6rem;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.Header_nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header_nav_logo > a {
+  color: white;
+  width: 30%;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.Header_nav_Info {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Header_nav_Info > h2 {
+  color: white;
+  font-size: 1.2rem;
+}
+.signout {
+  border:none;
+  padding:0.8rem;
+  background-color: rgb(207, 32, 49);
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.profileLink {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}

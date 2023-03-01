@@ -1,0 +1,83 @@
+.profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: 10rem;
+  color: white;
+}
+
+.profileInfo {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  background-color: #505364 !important;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  padding: 5rem 1rem;
+}
+.profileInfo > h3 {
+  text-align: center;
+  font-size: 2.7rem;
+  width: 100%;
+}
+.headArea {
+  display: flex;
+  margin: 2rem 0rem;
+  justify-content: space-between;
+  width: 80%;
+  align-self: center;
+  align-items: center;
+}
+.headinfo > div > h3 {
+  color: red;
+}
+.headimg {
+  height: 5rem;
+  width: 5rem;
+}
+.headimg > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5rem;
+}
+
+.Actions {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: rgb(163, 163, 163);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.Actions > button {
+  text-decoration: none;
+  padding: 1rem;
+  background-color: transparent;
+  color: black;
+  font-size: 1.7rem;
+  border: none;
+  cursor: pointer;
+}
+.Actions > button:active {
+  color: red;
+}
+
+.peopleList {
+  margin: 1rem 0.8rem;
+  display: flex;
+}
+
+.editprofileLink {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: red;
+  font-size: 1.4rem;
+  font-weight: lighter;
+}

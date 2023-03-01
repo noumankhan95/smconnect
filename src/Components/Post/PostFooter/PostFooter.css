@@ -1,0 +1,30 @@
+.PostFooter {
+  background-color:  #babac3;
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.PostFooterImg {
+  width: 4rem;
+  height: 4rem;
+  margin: 0rem 1rem;
+}
+.PostFooterImg > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5rem;
+}
+
+.PostFooterText {
+  width: 60%;
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  /* border-bottom: 1px solid black; */
+}

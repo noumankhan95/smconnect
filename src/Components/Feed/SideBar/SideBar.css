@@ -1,0 +1,59 @@
+.aside {
+  width: 30%;
+  border: 1px solid rgb(218, 190, 190);
+  position: sticky;
+  /* float: left; */
+  top: 6.3rem;
+  /* bottom: 0px; */
+  height: 90vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  padding: 0.8rem ;
+  border-radius: 0.4rem;
+  /* min-height: 30vh; */
+}
+
+.aside > h1 {
+  text-align: center;
+  font-size: 2rem;
+  border: 1px solid black;
+  width: 100%;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  padding: 0.7rem;
+}
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0.5rem 1rem; */
+  margin: 1rem 0.4rem;
+}
+.follownot{
+  width: 90%;
+  height: 5rem;
+  background-color: rgb(40, 37, 37);
+  color: white;
+  align-self: center;
+
+}
+.follownot >h3{
+  text-align: center;
+  line-height: 5rem;
+}
+.person>h1,.person> img,.person > button{
+  width: 30%;
+}
+
+.browseText{
+  padding: 0.8rem;
+  font-size: 1.6rem;
+}
+.spinner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

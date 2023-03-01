@@ -1,0 +1,8 @@
+.postBody {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 1rem;
+  margin: 1rem 0rem;
+}

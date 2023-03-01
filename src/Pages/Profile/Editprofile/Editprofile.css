@@ -1,0 +1,70 @@
+.profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: 5rem;
+}
+
+.profileInfo {
+  width: 40%;
+  height: 60%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: rgb(169, 255, 236);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  padding: 5rem 1rem;
+}
+.editheadimg > h4 {
+  text-align: center;
+  margin: 0.6rem 0rem;
+  cursor: pointer;
+  color: red;
+}
+.editheadArea {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.editheadimg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.editheadimg > img {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  object-fit: cover;
+  /* margin: 1rem; */
+}
+
+.changeInfo {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.changeInfo > input {
+  margin: 0.5rem 0rem;
+  padding: 1rem;
+  width: 60%;
+  border-radius: 0.4rem;
+}
+.changeInfo > button {
+  padding: 1rem;
+  background-color: transparent;
+  cursor: pointer;
+}
